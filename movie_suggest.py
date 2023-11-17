@@ -1,7 +1,11 @@
+import os
 import tkinter as tk
 from tkinter import messagebox
 import random
+import os
 
+os.environ['Display']="movie_suggest/"
+os.environ['API_PASSWORD']="1234"
 # List of movies
 movies = [
     "The Shawshank Redemption",
